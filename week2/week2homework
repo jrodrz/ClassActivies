@@ -1,0 +1,15 @@
+let pizzaPlace;
+let numberOfToppings;
+pizzaPlace = "Pizza Jewel"
+numberOfToppings = 10;
+console.log (pizzaPlace)
+console.log (numberOfToppings);
+console.log (typeof pizzaPlace);
+console.log (typeof numberOfToppings);
+if (numberOfToppings >=10) {
+  console.log ("A whole lot of pizza");
+} else {
+  console.log ("Quality, not quantity)"
+}
+
+
