@@ -1,12 +1,11 @@
 // Create a variable "timeOfDay" and assign it a string
-let timeOfDay = "noon";
+let timeOfDay = "10:00";
 
 // Create a variable "greeting" that references a template literal
-let greeting = `Hello, it is currently ${noon};
-console.log"greeting"
+let greeting = `Good morning!' +  'It is' + (timeOfDay);
 // Use "timeOfDay" in the template literal to create a message like "Good morning!" or "Good evening!"
-
 // Print "greeting"
+con
 
 // Create a new variable, but do not assign it a value
 newVar="";
