@@ -8,36 +8,29 @@ let dayName = `Today`;
 
 switch (day) {
   case 3:
-    dayName = `Today is Wednesday`;
+    console.log(`Today is Wednesday`);
     break;
-}
-  case 1:{
-    dayName = `Today is Monday`;
+  case 1:
+    console.log(`Today is Monday`);
     break;
-}
   // Note the code blocks in the next 2 cases: Why?
-  case 4: {
-    const message = `Today is Thursday`;
-    console.log(message);
+  case 4:
+    console.log(`Today is Thursday`);
+      break;
+  case 5:
+    console.log(`Tomorrow it's the weekend!`);
+       break;
+  default:
+    console.log(`It's the End of the World as We Know It`);
     break;
-  }
-  case 5 : {
-    const message = `Tomorrow it's the weekend!`;
-    console.log(message);
-    break;
-  }
-  default:{
-    console.log(**{`Write a sassy default message here`}**);
-    break;
-  }
-  case 2:{
+  case 2:
     console.log(`Today is Tuesday`);
     break;
-  }
-  // write a case here for the weekend ()
-  case 0&&6:{
-    alert(`It's the end of the world as we know it !!`);
+  // write a case here for the weekend (how many days in the weekend?)
+  case 6||0:
+    console.log(`It's the Weekend !!`);
+
 }
 if (dayName !== 'Today'){
 console.log(dayName);
-};
+}
